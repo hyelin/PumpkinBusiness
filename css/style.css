@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Spooky";
+  src: url(../assets/OctoberCrow.ttf) format("truetype");
+}
+
+body{
+	background: black;
+	color: orange;
+	font-family: "Spooky", sans-serif
+}
+
+.instructors li{
+	display: block;
+	list-style-type: none;
+	float:left;
+}
+
+.instructors ul li img{
+	width: 60px;
+	height: 65px;
+	padding: 0px;
+	margin-left: 20px;
+}
+
+.box{
+	text-align:center;
+}
